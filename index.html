@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tweet Twwet</title>
+    <title>Tweet Tweet</title>
     <!-- font awesome css -->
     <link
       rel="stylesheet"
@@ -23,21 +23,18 @@
   </head>
   <body>
     <br />
-    <div class="container" style="max-width: 1000px">
+    <div class="container" style="max-width: 800px">
       <nav
         class="navbar navbar-light d-flex"
-        style="background-color: #e3f2fd; min-height: 100px"
+        style="background-color: #75bbed; min-height: 100px"
       >
         <h1 class="navbar-brand m-auto">Tweet Tweet</h1>
       </nav>
-      <div
-        class="card card-body"
-        style="display: grid; grid-template-columns: 2fr 3fr; column-gap: 10px"
-      >
+      <div class="card card-body">
         <!-- form for create item.............. -->
         <div class="add-tweet">
           <form action="">
-            <div class="row mt-4">
+            <div class="row">
               <div class="col">
                 <input
                   type="text"
@@ -65,18 +62,18 @@
           <span class="msg"></span>
         </div>
         <!-- Product info ....................-->
-        <div class="show-tweets">
-          <nav class="navbar" style="background-color: #e3f2fd">
-            <input
-              type="text"
-              name="filter"
-              class="form-control m-3"
-              id="search"
-              placeholder="Search tweet"
-            />
-          </nav>
-          <ul class="list-group collection"></ul>
-        </div>
+      </div>
+      <div class="show-tweets">
+        <nav class="navbar" style="background-color: #e3f2fd">
+          <input
+            type="text"
+            name="filter"
+            class="form-control m-3"
+            id="search"
+            placeholder="Search tweet"
+          />
+        </nav>
+        <ul class="list-group collection"></ul>
       </div>
     </div>
     <!-- main js-- crud.js -->
